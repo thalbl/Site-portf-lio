@@ -290,6 +290,12 @@ a:hover {
     visibility: visible;
 }
 
+a.link {
+    display: block;
+    text-decoration: none;
+}
+
+
 /*footer*/
 
 
@@ -339,3 +345,18 @@ a:hover {
         width: 190px;
     }
 }
+
+    /*pagina de projeto */
+
+    .header-wrapper-projetos{
+        height: 20vh;
+        width: 100%;
+        background: linear-gradient(-45deg, #300350, #94167F, #E93479, #F9AC53,  #F62E97, #153CB4);
+        background-size: 400% 400%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        animation: backgroundTransition 8s ease-in-out infinite;
+    }
