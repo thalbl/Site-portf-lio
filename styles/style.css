@@ -349,7 +349,7 @@ a.link {
     /*pagina de projeto */
 
     .header-wrapper-projetos{
-        height: 20vh;
+        height: 10vh;
         width: 100%;
         background: linear-gradient(-45deg, #300350, #94167F, #E93479, #F9AC53,  #F62E97, #153CB4);
         background-size: 400% 400%;
